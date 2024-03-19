@@ -10,10 +10,10 @@ const App = () => {
     <Fragment>
       <main className="main">
         <Routes>
-          <Route path="/Market" index element={<Home />} />
-          <Route path="/Market/product/:id" element={<Product />} />
+          <Route path="/Markett2" index element={<Home />} />
+          <Route path="/Markett2/product/:id" element={<Product />} />
           <Route path="*" element={<h2 className="title-2">404</h2>} />
-          <Route path="/Market/bag/" element ={<Bag/>} />
+          <Route path="/Markett2/bag/" element ={<Bag/>} />
           
       
         </Routes>
